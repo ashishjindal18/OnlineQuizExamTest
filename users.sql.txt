@@ -1,0 +1,9 @@
+Create table users(
+id int(10) primary key Autoincrement,
+email varchar(30) not null,
+password varchar(30) not null,
+userbane varchar(30) not null,
+mobile bigInt(20) not null,
+address varchar(30) not null,
+photo mediumtext
+) 
